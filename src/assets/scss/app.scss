@@ -1,0 +1,22 @@
+// 3rd.
+@import 'primevue/resources/themes/soho-light/theme.css';
+@import 'primeicons/primeicons.css';
+@import 'vue-fortune-wheel/style.css';
+
+// Mixins.
+@import 'mixins/bp';
+
+// Base.
+@import 'base/base';
+@import 'base/layout';
+
+// UI elements.
+@import 'ui-elements/dialog';
+@import 'ui-elements/form';
+
+// Components.
+@import 'components/content-card';
+@import 'components/toolbar';
+
+// Views.
+//@import 'views/home';

@@ -1,0 +1,18 @@
+form {
+    strong {
+        display: block;
+        margin: 1em 0;
+    }
+}
+
+.form-message {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+}

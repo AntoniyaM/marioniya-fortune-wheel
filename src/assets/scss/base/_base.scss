@@ -1,0 +1,30 @@
+::selection {
+    background: var(--primary-color);
+    // --surface-0 is white in PrimeVue Soho theme.
+    color: var(--surface-0);
+}
+
+body {
+    margin: 0;
+    background: var(--highlight-bg);
+    color: var(--text-color);
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+
+    i {
+        margin-right: 1em;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

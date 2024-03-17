@@ -1,0 +1,21 @@
+.content-card {
+    .p-card-header {
+        padding: 1.25rem;
+        border-bottom: 1px solid var(--surface-border);
+    }
+
+    .p-panel {
+        max-width: 660px;
+        margin: 0 auto;
+    }
+
+    .p-panel-footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+
+        button {
+            flex: 1;
+        }
+    }
+}

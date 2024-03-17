@@ -1,0 +1,32 @@
+.container {
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container--narrow {
+    width: 65%;
+    max-width: 1000px;
+}
+
+header {
+    background: var(--surface-0);
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px var(--primary-300);
+}
+
+.logo {
+    width: 70px;
+
+    @include bp(xl) {
+        width: 90px;
+    }
+}
+
+main {
+    padding: 4em 0;
+}

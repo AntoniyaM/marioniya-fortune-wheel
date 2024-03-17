@@ -1,0 +1,22 @@
+// Adjustments to VuePrime dialog.
+.p-dialog {
+    width: 88vw;
+    max-width: 660px;
+}
+
+.p-dialog-header {
+    border-bottom: 1px solid var(--surface-border);
+}
+
+.p-dialog-content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.p-dialog-footer {
+    gap: 1em;
+
+    button {
+        flex: 1;
+    }
+}
