@@ -2,7 +2,7 @@
 
 Just for fun. 🎰
 
-https://wheel.marioniya.netlify.app
+https://wheel.marioniya.space
 
 ## Project Setup
 
